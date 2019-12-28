@@ -17,7 +17,7 @@ export class FizzBuzz {
   }
 
   _isRelatedTo(number) {
-    return this._isDivisibleBy(number) || this._isContains(number);
+    return this._isDivisibleBy(number) || this._isContains(number)
   }
 
   _isDivisibleBy(number) {

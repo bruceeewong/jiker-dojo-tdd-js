@@ -28,10 +28,10 @@ describe('FizzBuzz', () => {
   it('should return fizz given number contains 3', () => {
     expect(getSay(13)).toEqual('fizz')
     expect(getSay(32)).toEqual('fizz')
-  });
+  })
   it('should return buzz given number contains 5', () => {
     expect(getSay(52)).toEqual('buzz')
-  });
+  })
   it('should return fizzbuzz given number is related to 3 and 5', () => {
     expect(getSay(15)).toEqual('fizzbuzz')
     expect(getSay(45)).toEqual('fizzbuzz')
